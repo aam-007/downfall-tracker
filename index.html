@@ -205,13 +205,13 @@
     </header>
 
     <div class="scoreboard-card">
-        <div class="score-label">Today's Mess Level</div>
+        <div class="score-label">Today's Fucked Level</div>
         <div class="score-value" id="dailyScore">0</div>
         <div class="score-sub" id="scoreMessage">Perfectly balanced...</div>
     </div>
 
     <div class="chart-card">
-        <div class="chart-title">The Trend of Shame (Last 7 Days)</div>
+        <div class="chart-title">The Trend of Fuck-Ups (Last 7 Days)</div>
         <canvas id="trendChart"></canvas>
     </div>
 
@@ -227,9 +227,9 @@
     </div>
 
     <div>
-        <h2 class="list-header">Recent Disasters</h2>
+        <h2 class="list-header">Recent Fuck-Ups</h2>
         <ul class="fails-list" id="failsList"></ul>
-        <div id="emptyState" class="empty-state">No fails recorded today. Suspicious.</div>
+        <div id="emptyState" class="empty-state">No fails recorded today. DO SOMETHING.</div>
     </div>
 
     <footer class="app-footer">
@@ -239,10 +239,10 @@
 
 <script>
     /**
-     * DOWNFALL TRACKER v3.1
+     * DOWNFALL TRACKER
      */
 
-    const STORAGE_KEY = 'downfall_data_v2';
+    const STORAGE_KEY = 'downfall_data';
     const THEME_KEY = 'downfall_theme';
     const USER_KEY = 'downfall_username';
     
@@ -252,15 +252,14 @@
     };
 
     const RANDOM_FAILS = [
-        "Pushed to master without testing",
-        "Waved at someone who wasn't waving",
-        "Tripped on flat ground",
-        "Replied 'You too' to 'Happy Birthday'",
-        "Sent screenshot of the wrong screen",
-        "Forgot someone's name mid-intro",
-        "Choked on air",
-        "Walked into a glass door",
-        "Left the lens cap on"
+        "Made a pitch deck with the wrong font size",
+        "Forgot to treat PKNOTSERIOUS",
+        "Did Not call dadu",
+        "Opened Aditya Mishra's Walls of text",
+        "Woke up late in the presence of Bade Papa",
+        "Woke up early in the presence of Ba",
+        "Left the light on in the presence of Sonu Papa",
+
     ];
 
     const els = {
